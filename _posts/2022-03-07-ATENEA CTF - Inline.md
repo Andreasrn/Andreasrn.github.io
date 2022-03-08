@@ -11,4 +11,4 @@ tags:
  - Wireshark
 ---
 Coming soon...
-
+> El siguiente fichero pcap recoge las últimas conexiones establecidas por un equipo de nuestra organización justo antes de ser comprometido. Los atacantes han conseguido instalar cierto tipo de backdoor en la máquina. ¿Podrías identificar el password empleado por los atacantes?
