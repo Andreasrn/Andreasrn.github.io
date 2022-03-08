@@ -1,10 +1,10 @@
 # Site settings
-title: "Andreasrn | Security charms"
+title: "Andreasrn"
 email: REDACTED
 description: "A blog where you'll find CTF writeups."
 baseurl: ""
 url: ""
-title_description: ""
+title_description: "My personal blog where I'll post about CTFs, cybersecurity related topics and so on."
 title_image: ""
 google_analytics: ""
 disqus_account: ""
