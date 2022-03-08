@@ -1,26 +1,23 @@
 # Site settings
 title: "Andreasrn"
 email: REDACTED
-description: "A blog where you'll find CTF writeups."
+description: "Yet another blog about cybersecurity stuff."
 baseurl: ""
 url: ""
 title_description: "My personal blog where I'll post about CTFs, cybersecurity related topics and so on."
-title_image: ""
-google_analytics: ""
-disqus_account: ""
-github_repository: ""
-addthis_id: ""
+title_image: "https://avataaars.io/?avatarStyle=Circle&topType=LongHairNotTooLong&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=Hoodie&clotheColor=PastelBlue&eyeType=Default&eyebrowType=RaisedExcited&mouthType=Default&skinColor=Pale"
+github_repository: "https://github.com/Andreasrn/Andreasrn.github.io"
 post_limit: 5
 
 # Social usernames/URLs
 twitter_username: ThymineDNA
 github_username:  Andreasrn
 instagram_username: Andreasrn1
-linkedin_link: ""
+linkedin_link: "https://www.linkedin.com/in/andrea-serrano-urea-996a57120/"
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/ThymineDNA\">Andrea Serrano</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/Andreasrn\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: kramdown
