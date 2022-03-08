@@ -1,10 +1,10 @@
 # Site settings
 title: "Andreasrn"
 email: REDACTED
-description: "Yet another blog about cybersecurity stuff."
+description: "Yet another blog about cybersecurity and CTFs writeups."
 baseurl: ""
 url: ""
-title_description: "My personal blog where I'll post about CTFs, cybersecurity related topics and so on."
+title_description: "Yet another blog about cybersecurity and CTFs writeups."
 title_image: "https://avataaars.io/?avatarStyle=Circle&topType=LongHairNotTooLong&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=Hoodie&clotheColor=PastelBlue&eyeType=Default&eyebrowType=RaisedExcited&mouthType=Default&skinColor=Pale"
 github_repository: "https://github.com/Andreasrn/Andreasrn.github.io"
 post_limit: 5
