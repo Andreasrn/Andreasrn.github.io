@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      Cheatsize | Netcat reverse shell
+title:      Cheatsheet | Netcat reverse shell
 date:       2022-03-09 10:00:00
-summary:    That's it. The few commands to execute to set up a reverse shell.
+summary:    That's it. Few commands to execute to set up a reverse shell.
 categories: Cheatsheet
-thumbnail: wand-magic-sparkles
+thumbnail: terminal
 tags:
  - Hacking
  - Reverse shell
