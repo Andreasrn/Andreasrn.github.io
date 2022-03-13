@@ -52,7 +52,7 @@ We will save this note for later.
 
 To speed up the process, I used an online Monoalphabetic substitution algorithm cracker, which analyzes language (this time, assumed Spanish) characteristics in order to statistically determine the most likely key. Although I used the one in https://www.guballa.de/substitution-solver, any similar tool should be enough to obtain an starting point.
 
-![Initial key](../images/initial_key.jpg)
+![Thumper](../images/initial_key.jpg)
 
 This tool gave me the key _qphrtdfmwgosieczjklyxauvnb_ (q = a, p = b...) that I used to build an initial script:
 ```python
@@ -81,4 +81,6 @@ for char in original_plain:
 
 print(decoded_plain)
 ```
-This script produces at output
+This script traverses each char of the text and replaces it by its equivalence. In the case of failure (missing translation), it just leaves the encrypted char with the hopes of figuring it out later given the surrounding chars.
+
+
