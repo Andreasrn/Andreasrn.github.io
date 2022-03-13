@@ -36,17 +36,17 @@ I decided to find a "known plain text" section and build the key from that point
 zsq*{t53z00w7124266z8et045t27q873220t}
 
 This piece of text tells us that:
-* z = f
-* s = l
-* q = a
-* * = g
+* "z" = "f"
+* "s" = "l"
+* "q" = "a"
+* "*" = "g"
 
 and also, that we are mostly interested in the equivalence of:
-* t = ?
-* z = f
-* w = ?
-* e = ?
-* q = a
+* "t" = ?
+* "z" = "f"
+* "w" = ?
+* "e" = ?
+* "q" = "a"
 
 We will save this note for later.
 
@@ -81,6 +81,28 @@ for char in original_plain:
 
 print(decoded_plain)
 ```
-This script traverses each char of the text and replaces it by its equivalence. In the case of failure (missing translation), it just leaves the encrypted char with the hopes of figuring it out later given the surrounding chars.
+This script traverses each char in the text and replaces it by its equivalence. In the case of failure (missing equivalence), it just leaves the encrypted char with the hopes of figuring it out later in the context of the whole word or sentence.
 
+Taking the initial translation, we can already spot some similarities to real words. For instance, in the encrypted sentence "El CCN desarr%llará u$", we can easyly infer that it actually consists on "El CNN desarrollará un". Knowing this, it is obvious that "%" translates to "o", and "$" translates to "n".
 
+Now, it is a matter of repetition:
+* Add the new findings to the dictionary and run the script
+* Try to identify new words that may seem like a real word, but with some altered char
+* Find out what char is translating it wrong and swap it with the correct one
+* Execute and repeat
+
+It will eventually lead us to the following dictionary: 
+```python
+plain = "abcdefghijklmnopqrstuvwxyzgimonv"
+keyaa = "qwertzfgbposidahjklyxovunm*&§%$c"
+```
+
+We will also know the equivalences for the relevant chars:
+* "t" = "e"
+* "z" = "f"
+* "w" = "b"
+* "e" = "c"
+* "q" = "a"
+
+Now we are sure that the displayed flag is no longer ciphered:
+_flag{e53f00b7124266f8ce045e27a873220e}_
