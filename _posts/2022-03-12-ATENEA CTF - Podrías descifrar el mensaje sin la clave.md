@@ -52,7 +52,7 @@ We will save this note for later.
 
 To speed up the process, I used an online Monoalphabetic substitution algorithm cracker, which analyzes language (this time, assumed Spanish) characteristics in order to statistically determine the most likely key. Although I used the one in https://www.guballa.de/substitution-solver, any similar tool should be enough to obtain an starting point.
 
-<img src="../images/initial_key.jpg">
+![Initial key](/images/initial_key.jpg)
 
 This tool gave me the key _qphrtdfmwgosieczjklyxauvnb_ (q = a, p = b...) that I used to build an initial script:
 ```python
