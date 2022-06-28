@@ -33,16 +33,16 @@ The cleaned up code looks as follows and can be read by a QR reader app (I used 
 
 It leads to the following URL: goo[.]gl/bNi7tK
 Such URL redirects to hXXps://mega.nz/file/qrh1hASK#xK6mg4Byu0VfouY1crLx68pJyWC6G4_LwHfSFPEiwP4 and contains the following image, which corresponds to a boarding pass:
-![Boarding pass](/images/ticket.png)
+![Boarding pass](/images/ticket.jpg)
 
 Its metadata contains some interesting fields:
 ```
 ...
 Comment: NaNaNaNana
 ...
-Gps Latitude 26 deg 21' 28.43" N
-Gps Longitude 127 deg 47' 1.71" E
-Gps Position 26 deg 21' 28.43" N, 127 deg 47' 1.71" E
+Gps Latitude: 26 deg 21' 28.43" N
+Gps Longitude: 127 deg 47' 1.71" E
+Gps Position: 26 deg 21' 28.43" N, 127 deg 47' 1.71" E
 ```
 We can use the GPS position to perform a search in Google Maps (26º21'28.43" N, 127º47'1.71" E). This is what the map reveals:
 ![Location](/images/batman_location.png)
