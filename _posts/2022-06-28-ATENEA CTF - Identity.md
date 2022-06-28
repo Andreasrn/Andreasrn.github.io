@@ -32,7 +32,7 @@ The cleaned up code looks as follows and can be read by a QR reader app (I used 
 ![Cleaned QR code](/images/cleaned_up_qr.png)
 
 It leads to the following URL: goo[.]gl/bNi7tK
-Such URL redirects to hXXps://mega.nz/file/qrh1hASK#xK6mg4Byu0VfouY1crLx68pJyWC6G4_LwHfSFPEiwP4 and contains the following image, which corresponds to a boarding pass:
+Such URL redirects to hXXps://mega.nz/file/qrh1hASK#xK6mg4Byu0VfouY1crLx68 pJyWC6G4_LwHfSFPEiwP4 and contains the following image, which corresponds to a boarding pass:
 ![Boarding pass](/images/ticket.jpg)
 
 Its metadata contains some interesting fields:
