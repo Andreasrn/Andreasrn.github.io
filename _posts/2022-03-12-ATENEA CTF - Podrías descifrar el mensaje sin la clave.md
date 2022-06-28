@@ -11,7 +11,6 @@ tags:
  - Cryptography
 ---
 This challenge provides us with the following text to decrypt, along with a clue stating that "each char is ALWAYS replaced by a certain char".
-"HOLA"
 
 >Owpty&c%l, §&l&ó$ n hk&%k&rqrtl
 >Sx hk&$e&hqs %wpty&c% tl e%$yk&wx&k q sq §tp%kq rts $&cts rt lt*xk&rqr rt s%l l&lyt§ql rt &$z%k§qe&ó$ rt sql yktl qr§&$&lykqe&%$tl húws&eql tb&lyt$ytl t$ Elhqñq >(*t$tkqs, qxy%$ó§&eq n s%eqs).
