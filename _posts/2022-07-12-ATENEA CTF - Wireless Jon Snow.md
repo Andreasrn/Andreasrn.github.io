@@ -10,7 +10,6 @@ tags:
  - Atenea
  - Wireless
  - Wireshark
- - 802.11
  - FTP
  - Cracking
 ---
