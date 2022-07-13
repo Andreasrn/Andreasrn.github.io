@@ -47,4 +47,4 @@ Gps Position: 26 deg 21' 28.43" N, 127 deg 47' 1.71" E
 We can use the GPS position to perform a search in Google Maps (26º21'28.43" N, 127º47'1.71" E). This is what the map reveals:
 ![Location](/images/batman_location.png)
 
-This image and the comment suggest that the secret identity is... NaNaNaNana *batman*
+This image and the comment suggest that the secret identity is... NaNaNaNana: *batman*
