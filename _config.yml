@@ -1,10 +1,11 @@
 # Site settings
 title: "Andreasrn"
 email: REDACTED
-description: "Yet another blog about cybersecurity and CTFs writeups."
+description: "I'm a cybersecurity professional currently working on the blue team side. My skills include forensics, malware analysis and threat hunting, as well as basic pentesting knowledge. I'm interested in growing my overall computer science understanding, learning to track APTs closer, and to push further my malware analysis and offensive profile.
+In this blog you'll find my braindumps and CTF writeups."
 baseurl: ""
 url: ""
-title_description: "Yet another blog about cybersecurity and CTFs writeups."
+title_description: "Yet another blog about cybersecurity and CTF writeups."
 title_image: "https://avataaars.io/?avatarStyle=Circle&topType=LongHairNotTooLong&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=Hoodie&clotheColor=PastelBlue&eyeType=Default&eyebrowType=RaisedExcited&mouthType=Default&skinColor=Pale"
 github_repository: "https://github.com/Andreasrn/Andreasrn.github.io"
 post_limit: 5
