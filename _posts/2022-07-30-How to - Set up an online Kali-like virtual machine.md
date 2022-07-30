@@ -4,7 +4,7 @@ title:      How to | Setup an online Kali-like virtual machine (I)
 date:       2022-07-30 10:00:00
 summary:    A brief tutorial to set up an online VM with the necessary tools to work on CTFs and related, while accessible from any device (part 1).
 categories: Tutorial
-thumbnail: toolbox
+thumbnail: wrench
 tags:
  - CTF
  - Kali
