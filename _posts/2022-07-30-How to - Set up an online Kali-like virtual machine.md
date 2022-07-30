@@ -28,7 +28,7 @@ I have no system administration background and therefore I'm not quite familiar 
 
 Also, there are plenty of ways to achieve this. I'm just trying to keep it simple and cheap.
 
-# Part 1: Cloud infrastructure acquisition
+# Step 1: Cloud infrastructure acquisition
 
 Our very first step should be to acquire a portion of the cloud to host your VM. There is a wide variety of options, including setting up a server at home (cheaper - harder) and purchasing the services of cloud providers such as AWS, Azure or Digital Ocean (more expensive - easier). Some of these even would allow to import our custom ISO, which translates to installing a real Kali instance.
 
@@ -47,14 +47,14 @@ Deploy it with Debian 11 (or your favourite SO) and you'll receive its public IP
 
 Summary of this step: Acquire a VPS in which you can install Debian 11 or a similar distro.
 
-# Part 2: Basic configuration
+# Step 2: Basic configuration
 
 At this point you have a fresh Debian instance, for which you have been provided with an username/password pair. We will start configuring it step by step.
 
-## User management
+### User management
 
 First, we will create an user to work on that is different from the default. We will also disable shell on root and the default user, as a security measure.
-```
+```plain
 # Create custom user
 sudo adduser <HERE_YOUR_USERNAME>
 
@@ -72,16 +72,16 @@ To disable the shell, open the file _/etc/passwd_ with your preferred text edito
 
 (snapshot at this point if possible)
 
-## GUI installation
+### GUI installation
 
 Now we will install a desktop environment to work with. The choice of an environment depends on your computing resources and preferences. My initial choice was GNOME but it didn't run smoothly enough, so I tried XFCE instead. This one worked better, but had a login issue that couldn't resolve and ended up installing MATE. It does not only look pretty well, but also seems to be lightweight enough to run pretty decently with a good screen resolution.
 
 Install MATE with the following command, or look up the commands needed to install the desktop environment of your choice.
-```
+```plain
 sudo apt update && sudo apt install mate-desktop-environment
 ```
 
-## Remote access
+### Remote access
 
 Once we have a GUI, it is time to use it. Among the possible access methods, I'd use VNC or NoMachine. VNC could be eventually accessed from the web browser (which is a nice feature) but I wanted to give a try to NoMachine. These are the steps to install it.
 ```
@@ -96,16 +96,16 @@ Summary of this step: Have a working user to access your instance graphically fr
 
 (snapshot at this point if possible)
 
-# Part 3: Build your toolset
+# Step 3: Build your toolset
 
 This is the more interesting (yet tedious) part. Now we have a working instance that we can access and interact to from any device (the point of this tutorial) it is time to install the tools we need and eventually organize them properly.
 
-## Download Kali tools
+### Download Kali tools
 Although you have all the freedom to install whatever you prefer, my needs are close to what Kali offers, thus, I borrowed this script from Github to install all the tools:
 [makekali.sh](https://gist.githubusercontent.com/warecrash/f35d4f9a822c452b0c54bbdb47c0c9a5/raw/8f7055e1cde8ae03f19f57d0154f259e9f8f3060/makekali.sh)
 
 Download, make executable and run it with the following commands:
-```
+```plain
 wget https://gist.githubusercontent.com/warecrash/f35d4f9a822c452b0c54bbdb47c0c9a5/raw/8f7055e1cde8ae03f19f57d0154f259e9f8f3060/makekali.sh
 sudo chmod +x makekali.sh
 sudo ./makekali.sh
