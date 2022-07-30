@@ -84,7 +84,7 @@ sudo apt update && sudo apt install mate-desktop-environment
 ### Remote access
 
 Once we have a GUI, it is time to use it. Among the possible access methods, I'd use VNC or NoMachine. VNC could be eventually accessed from the web browser (which is a nice feature) but I wanted to give a try to NoMachine. These are the steps to install it.
-```
+```plain
 wget https://download.nomachine.com/download/7.10/Linux/nomachine_7.10.1_1_amd64.deb
 sudo dpkg -i nomachine_7.10.1_1_amd64.deb
 ```
